@@ -1,5 +1,5 @@
 
-# Text Analyzer
+# Text Analyzer project
 
 ### How this system works?
 - User should enter text of any length or hit enter with no text to exit.
