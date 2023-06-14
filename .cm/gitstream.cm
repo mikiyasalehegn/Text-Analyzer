@@ -14,6 +14,7 @@ automations:
         args:
           label: "{{ calc.etr }} min review"
           color: {{ '8E44AD' if (calc.etr >= 20) else ('EAEDED' if (calc.etr >= 5) else '3498DB') }}
+
   # Post a comment that lists the best experts for the files that were modified.
   suggest_code_experts:
     # Triggered when someone applies a suggest-reviewer label to a PR.
