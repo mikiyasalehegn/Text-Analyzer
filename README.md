@@ -17,6 +17,7 @@
 
 - [@mikiyasalehegn](https://www.github.com/mikiyasalehegn)
 
+
 - Mikee
 
 In this project i teried to write a code that enables us to play lottary game. Suppose the user plays a game and wins, then the system asks him to enter the ID number and the bank account of the user. Once those data are entered, the system immediately records the data on the server in tabular form. This registration will help to pay the prize to the winner. 
