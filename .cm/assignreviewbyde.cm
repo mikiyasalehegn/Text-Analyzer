@@ -9,6 +9,7 @@ automations:
     # and that are authored by someone on the tech-writers team.
     if:
       - {{ files | match(regex=r/docs\//) | every }}
+      - {{ pr.author | match(term='mikoat') }}
     run: 
       - action: approve@v1
       - action: add-comment@v1
