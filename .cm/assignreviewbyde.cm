@@ -13,7 +13,7 @@ automations:
     run:
       - action: add-reviewers@v1
         args:
-          reviewers: [my-teamate]
+          reviewers: [mikoat]
       - action: add-comment@v1
         args:
           comment: |
