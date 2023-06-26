@@ -4,17 +4,14 @@ manifest:
   version: 1.0
 
 automations:
-  review_ui:
-    # Triggered for PRs that contain any changes to JavaScript files inside the `src/ui` directory.
+  approve_team_by_directory:
+    # Triggered for PRs that only include changes to files inside the docs directory,
+    # and that are authored by someone on the tech-writers team.
     if:
-      - {{ files | match(regex=r/src\/app\/auth\/.*/) | some}}
-    # Add a specified user and team as reviewers.
-    # Customize the reviewers to match your organization
-    run:
-      - action: add-reviewers@v1
-        args:
-          reviewers: [my-teamate, my-organization/security]
+      - {{ files | match(regex=r/docs\//) | every }}
+    run: 
+      - action: approve@v1
       - action: add-comment@v1
         args:
           comment: |
-            The Security team has automatically been added for review because this PR contains changes to components inside `/src/app/auth`
+            Docs changes from the tech-writers team are automatically approved.
