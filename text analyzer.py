@@ -10,6 +10,7 @@
 # 4. invert the order of the words of the list and print the list inverted (only the word order in the list not the
 # internal word order) example list = [‘people’,’like’,’running’] -reversed→ [‘running’,’like’,‘people’]
 # 5. Look for the word python in the list and printout:
+# 6. Testing  gitstream 
 
 
 def count_char(substring1: str, substring2: str, substring3: str) -> list:
