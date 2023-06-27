@@ -66,8 +66,7 @@ In this project i teried to write a code that enables us to play lottary game. S
 *   No White Balls, Just the Powerball: $4
 
 *   All Other situations – display “try again!”
-
-*   cfggf gf
+<br/>
 
 <br/>
 
