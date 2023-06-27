@@ -1,9 +1,0 @@
-automations:
-  catch_deprecated:
-    if:
-      - {{ source.diff.files | matchDiffLines(regex=r/^[+].*oldFetch\(/') | some }}
-    run:
-      - action: request-changes@v1
-        args:
-          comment: |
-            You have used deprecated API `oldFetch`, use `newFetch` instead.
