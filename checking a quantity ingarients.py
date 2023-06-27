@@ -103,4 +103,5 @@ while True:
 for elements in tobuy:
     print(elements)
 
+# wdc
 
