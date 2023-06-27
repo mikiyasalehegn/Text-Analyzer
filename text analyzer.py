@@ -11,7 +11,7 @@
 # internal word order) example list = [‘people’,’like’,’running’] -reversed→ [‘running’,’like’,‘people’]
 # 5. Look for the word python in the list and printout:
 # 6. Testing  gitstream 
-# 7. 11
+
 
 def count_char(substring1: str, substring2: str, substring3: str) -> list:
     chars = [substring1, substring2, substring3]
