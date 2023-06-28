@@ -41,11 +41,7 @@ In this project i teried to write a code that enables us to play lottary game. S
 - 3 Correct White Balls, but no Powerball: $7
 - 2 Correct White Balls and the Powerball: $7
 - 1 Correct White Ball and the Powerball: $4
-- No White Balls, Just the Powerball: $4
-- All Other situations – display “try again!”
-- ==
 
-- 
 
 
 
