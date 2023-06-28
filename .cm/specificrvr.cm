@@ -6,3 +6,8 @@ automations:
       - action: require-reviewers@v1
         args:
           reviewers: [Mengmik]
+      - action: add-comment@v1
+        args:
+          comment: |
+            The file shouldbe reviewed by Mengmik
+
