@@ -112,22 +112,21 @@ while (true){
 
 // console.log(n)
 
-let n1 = prompt("Inter the 1st number: ")
 
-let n2 = prompt("Inter the 2nd number: ")
 
-function max(a,b){
-    if (a > b) return a;
-    else return b;
-}
 
-console.log(max(n1, n2), "Is greater")
 
-function min(a,b){
-    return (a > b) ? a : b;
-}
 
-console.log(min(n1, n2), "Is less")
+
+
+
+
+
+
+
+
+
+
 
 
 
