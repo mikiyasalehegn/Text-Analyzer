@@ -7,7 +7,7 @@ automations:
   review_ui:
     # Triggered for PRs that contain any changes to JavaScript files inside the `src/ui` directory.
     if:
-      - {{ files | allDocs }}
+      - {{ files | allpy }}
     # Add a specified user and team as reviewers.
     # Customize the reviewers to match your organization
     run:
